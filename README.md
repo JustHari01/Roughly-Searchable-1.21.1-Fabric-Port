@@ -19,6 +19,7 @@ An unofficial Minecraft 1.21.1 Fabric compatibility port of [Roughly Searchable]
 - Cloth Config for Fabric 1.21.1, version 15.0.130 or newer
 
 This is a client-side mod and should not be installed on a dedicated server.
+Minecraft client runtime testing for 1.21.1 has not yet been performed.
 
 ## Build
 

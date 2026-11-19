@@ -1,0 +1,9 @@
+{
+  "config.roughlyenoughitems.roughlysearchable": "Roughly Searchable",
+  "config.roughlysearchable.keybind": "Inventory Search Toggle Keybind",
+  "config.roughlysearchable.search": "Searching On",
+  "config.roughlysearchable.indicator.trueSize": "Size of matching items",
+  "config.roughlysearchable.indicator.falseSize": "Size of non-matching items",
+  "config.roughlysearchable.indicator.background": "Darken item background",
+  "config.roughlysearchable.indicator.background.desc": "Syncs default REI search to Rougly Searchable"
+}

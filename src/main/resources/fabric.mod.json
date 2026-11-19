@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "roughlysearchable",
+  "version": "${version}",
+
+  "name": "Roughly Searchable",
+  "description": "Unofficial Minecraft 1.21.1 port of Roughly Searchable. Highlights inventory items that match the current Roughly Enough Items search.",
+  "authors": [
+    "JustHari01 (1.21.1 port)",
+    "Stuin (original mod)"
+  ],
+  "contact": {
+    "homepage": "https://stuintech.com/minecraft",
+    "sources": "https://github.com/JustHari01/Roughly-Searchable-1.21.1-Fabric-Port"
+  },
+
+  "license": "MIT",
+  "icon": "assets/roughlysearchable/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "roughlysearchable.mixins.json"
+  ],
+
+  "entrypoints": {
+    "rei_client": [
+      "com.stuintech.roughlysearchable.RSClientPlugin"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "java": ">=21",
+    "fabric-api": ">=0.116.18+1.21.1",
+    "minecraft": "1.21.1",
+    "roughlyenoughitems": ">=16.0.799",
+    "cloth-config2": ">=15.0.130"
+  }
+}

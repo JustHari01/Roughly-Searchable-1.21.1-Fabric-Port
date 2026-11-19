@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.stuintech.roughlysearchable.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ConfigObjectMixin",
+    "ContainerScreenMixin",
+    "ItemRendererMixin",
+    "SearchFieldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
